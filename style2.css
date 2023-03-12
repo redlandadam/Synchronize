@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+body {
+    background-color: #0C1014;
+    color: #FCF9FF;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    color: #FCF9FF;
+}
+
+/* Butons */
+
+.btn-outline {
+    border: 1px solid #008cff;
+    border-radius: 40px;
+    padding: 8px 30px;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero-container {
+    margin: 20px 0 0  100px;
+    position: relative;
+}
+
+.nav-logo {
+    width: 35px;
+    height: auto;
+    margin-right: 270px;
+    position: relative;
+    float: left;
+}
+
+.nav-menu {
+    position: relative;
+    float: left;
+}
+
+
+.navbar a {
+    font-size: 1.2rem;
+}
+.navbar li {
+    list-style: none;
+    margin-right: 120px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.open-btn {
+    position: relative;
+    margin-top: 10px;
+    right: 100px;
+    float: right;
+}
+
+
+.hero-title h1 {
+    text-align: center;
+    font-size: 8rem;
+}
+
+.hero-content p{
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-top: 30px;
+}
+
+.clear-float {
+    clear: both;
+}
