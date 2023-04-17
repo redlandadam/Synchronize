@@ -647,3 +647,127 @@ ion-icon:hover {
 .widget-5 img {
     height: 30px;
 }
+
+/* --------------------Stats Section ----------------*/
+
+.stats-section {
+    height: 120px;
+    width: 100%;
+    background-color: #1100ff;
+    box-shadow: inset 0 0 10px 10px #0e00cc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 250px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.stats h3 {
+    font-weight:500;
+}
+
+.stats p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.stats-1,
+.stats-2,
+.stats-3{
+    border-right: 4px solid #fcf9ff;
+}
+
+.why-section {
+    height: 900px;
+    width: 100%;
+    background-color: #0c1014;
+    display: flex;
+    justify-content: space-between;
+    align-items: centre;
+    padding: 60px 50px;
+}
+
+.why-section-left {
+    height: 100%;
+    flex: 0 0 50%;
+}
+
+.l-angle {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.key-points {
+    margin-left: 120px;
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 75%;
+}
+
+.why-section-left h4 {
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.why-section-left p {
+    font-size: 18px;
+    color: #a7a7a7;
+    line-height: 1.7;
+    text-align: justify;
+    margin:5% 0;
+}
+
+.why-section-right {
+    height: 100%;
+    flex: 0 0 50%;
+}
+
+.why-section-right img {
+    height: 100%;
+    width: auto;
+}
+
+.about-section {
+    height:800px;
+    background-color: #fcf9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 50px;
+}
+
+.about-section-content img {
+    height: 65vh;
+    width: 100%;
+    margin:0px 50px ;
+}
+
+.about-span {
+    color: #2020ff;
+    font-weight: 600;
+}
+.about-section-content p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.3;
+}
