@@ -771,3 +771,87 @@ ion-icon:hover {
     font-weight: 400;
     line-height: 1.3;
 }
+
+.plan-section {
+    height: 800px;
+    background-color: #0c1014;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan-title {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.plan-section p {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+}
+
+.card {
+    height: 450px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 20px 20px 5px #000;
+    transition: all 0.2s;
+}
+
+.card-1,
+.card-3 {
+    background-color: #fcf9ff;
+    color: #0c1014;
+}
+
+.card-2 {
+    background-color: #2020ff;
+    color: #fcf9ff;
+    z-index: 10;
+    margin: 0 -70%;
+}
+
+.card h3{
+    font-weight: 600;
+}
+
+.card-plan {
+    text-align:center;
+    margin-top: 5%;
+    line-height: 2;
+}
+
+.card .card-plan button {
+    background-color: #e7e7e7;
+    height: 40px;
+    width: 150px;
+    margin-top: 15%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card .card-header {
+    line-height: 1.5;
+}
+
+.card-section:hover .card {
+    filter: blur(10px);
+    transform: scale(0.9);
+}
+
+.card-section .card:hover{
+    z-index: 20;
+    filter: blur(0);
+    transform: scale(1);
+}
