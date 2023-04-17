@@ -13,6 +13,8 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #fcf9ff;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    overflow-x:hidden ;
 }
 
 a {
@@ -854,4 +856,120 @@ ion-icon:hover {
     z-index: 20;
     filter: blur(0);
     transform: scale(1);
+}
+
+.support-section{
+    background-color: #0c1014;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support-header {
+    margin-top: 50px;
+}
+
+.support-article {
+    margin-top: 2%;
+    background-color: #0c1014;
+    width: 1200px;
+    height: 750px;
+    box-shadow: 0 0 40px 10px #000;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="button"],
+input[type="email"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #f3e7d9;
+    border: none;
+}
+
+.check-box {
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background-color: #11dd22;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+.support-article img {
+    width: 50%;
+    height: 100%;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: #181b26 ;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav {
+    height: 100%;
+    width: 100%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-logo {
+    height: auto;
+    width: 60%
+}
+
+.footer-bottom {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-links li {
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.footer-bottom .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease-out;
+}
+
+.footer-links a:hover {
+    color: #00ffe0;
 }
